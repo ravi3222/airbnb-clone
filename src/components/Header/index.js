@@ -2,10 +2,13 @@ import React from "react";
 import "./styles.scss";
 
 // Ant Design
+
+import { Avatar } from "antd";
 import {
   GlobalOutlined,
   SearchOutlined,
   DownOutlined,
+  UserOutlined,
 } from "@ant-design/icons";
 
 function Header() {
@@ -26,6 +29,7 @@ function Header() {
         <p>Become a host</p>
         <GlobalOutlined />
         <DownOutlined />
+        <Avatar size="large" icon={<UserOutlined />} />
       </div>
     </div>
   );

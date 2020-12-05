@@ -1,0 +1,38 @@
+.card {
+  margin: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 0.6rem 1.8rem -0.9rem rgba(0, 0, 0, 0.75);
+  transition: transform 0.1s ease-in;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.07);
+  }
+
+  img {
+    object-fit: fill;
+    min-width: 30rem;
+    min-height: 20rem;
+    width: 100%;
+  }
+  .card__info {
+    margin-top: -0.9rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    padding-top: 2rem;
+    border: 1;
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+
+    h4 {
+      font-size: 1.4rem;
+      font-weight: 300;
+      margin-top: 0.8rem;
+      margin-bottom: 0.8rem;
+    }
+  }
+}
